@@ -1,0 +1,73 @@
+---
+Gns3:
+  hostname: 192.168.18.87
+  platform: ios
+  port: 22
+  username: cisco
+  password: cisco
+  secret: cisco
+  groups:
+    - cisco
+    - cisco1
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: cisco
+Gns5:
+  hostname: 192.168.18.96
+  platform: ios
+  port: 22
+  username: cisco
+  password: cisco
+  secret: cisco
+  groups:
+    - cisco
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: cisco
+Testbase:
+  hostname: 192.168.18.117
+  platform: ios
+  port: 22
+  username: cisco
+  password: cisco
+  secret: cisco
+  groups:
+    - cisco
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: cisco
+CSR1000v:
+  hostname:  ios-xe-mgmt.cisco.com
+  platform: ios
+  port: 8181
+  username: developer
+  password: C1sco12345
+  secret: 
+  groups:
+    - cisco
+    - cisco1
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: 
+NXS:
+  hostname: sbx-nxos-mgmt.cisco.com
+  platform: ios
+  port: 8181
+  username: admin
+  password: Admin_1234!
+  secret: 
+  groups:
+    - cisco
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: 

@@ -1,0 +1,11 @@
+# groups.yaml
+---
+
+cisco: { }
+
+cisco1: { }
+
+test: { }
+
+juniper: { }
+
